@@ -15,7 +15,10 @@ function AddressCard(props) {
         {address.name.first} {address.name.last}
       </p>
       <img src={address.picture.thumbnail} alt={address.name.first} />
-      {showInfo ? <p>Details</p> : null}
+      {showInfo ? `Cell: ${address.cell}    ` : null}
+      {showInfo ? `Email: ${address.email}    ` : null}
+      {showInfo ? `phone: ${address.phone}    ` : null}
+      {showInfo ? `Nat: ${address.nat}    ` : null}
       <button onClick={handleSwitch}>
         {!showInfo ? "show details" : "hide details"}
       </button>
