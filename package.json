@@ -1,7 +1,7 @@
 {
   "name": "411addressbook",
   "version": "0.1.0",
-  "homepage": "https://StewartWingfield.github.io/411addressbook",
+  "homepage": "https://StewartWingfield.github.io/411addressBook",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
